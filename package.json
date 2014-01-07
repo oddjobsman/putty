@@ -1,0 +1,32 @@
+{
+  "name": "putty",
+  "version": "0.0.0",
+  "description": "bunch of general-purpose functional utilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:oddjobsman/putty.git"
+  },
+  "keywords": [
+    "underscore",
+    "utilities",
+    "functional",
+    "functions"
+  ],
+  "author": "oddjobsman <oddjobsman@oddjobsman.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oddjobsman/putty/issues"
+  },
+  "homepage": "https://github.com/oddjobsman/putty",
+  "dependencies": {
+    "underscore": "~1.5.2"
+  },
+  "devDependencies": {
+    "expect.js": "~0.2.0",
+    "mocha": "~1.16.2"
+  }
+}
