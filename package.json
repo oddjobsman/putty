@@ -2,9 +2,9 @@
   "name": "putty",
   "version": "0.0.0",
   "description": "bunch of general-purpose functional utilities",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt ci"
   },
   "repository": {
     "type": "git",
@@ -23,10 +23,17 @@
   },
   "homepage": "https://github.com/oddjobsman/putty",
   "dependencies": {
-    "underscore": "~1.5.2"
+    "lodash": "~2.4.1"
   },
   "devDependencies": {
     "expect.js": "~0.2.0",
-    "mocha": "~1.16.2"
+    "mocha": "~1.16.2",
+    "gulp": "~3.3.0",
+    "jshint-stylish": "~0.1.5",
+    "gulp-load-tasks": "~0.1.1",
+    "gulp-mocha": "~0.3.0",
+    "gulp-jshint": "~1.3.4",
+    "gulp-sloc": "~1.0.1",
+    "sinon": "~1.7.3"
   }
 }
