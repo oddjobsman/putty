@@ -5,6 +5,12 @@ General-purpose re-usable functional utilities.
 
 Strongly recommended to be used along with [lodash](https://github.com/lodash/lodash)
 
+[![build status](https://secure.travis-ci.org/oddjobsman/putty.png)](http://travis-ci.org/oddjobsman/putty)
+[![dependency status](https://david-dm.org/oddjobsman/putty.png)](https://david-dm.org/oddjobsman/putty)
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/oddjobsman/putty/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
+[![NPM](https://nodei.co/npm/putty.png?stars=true&downloads=true)](https://nodei.co/npm/putty/)
+
 ## Usage
 
 First install the `putty` as a dependency:
@@ -13,38 +19,6 @@ First install the `putty` as a dependency:
 npm install --save putty
 ```
 
-You can now use `putty` in one of the following ways:
-
-### Use directly
-
-```js
-var putty = require('putty');
-
-var foo = 10;
-
-if (putty.existy(foo))
-	console.log('foo exists');
-```
-
-### Use putty-lodash mix
-```js
-var _ = require('putty')._;
-
-// Now call putty/lodash functions via _
-if (_.existy(foo))
-	console.log('foo exists');
-```
-
-### Custom mixin with lodash
-```js
-var _ = require('lodash').mixin(require('putty'));
-
-// Now call putty/lodash functions via _
-if (.existy(foo))
-	console.log('foo exists');
-```
-
----
 ## API
 
 ### arrgs([args])
@@ -65,5 +39,3 @@ function sum() {
     }, 0);
 }
 ```
-- - -
-

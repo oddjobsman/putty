@@ -1,6 +1,6 @@
 {
   "name": "putty",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "bunch of general-purpose functional utilities",
   "main": "./lib/index.js",
   "scripts": {
@@ -14,7 +14,8 @@
     "underscore",
     "utilities",
     "functional",
-    "functions"
+    "functions",
+    "programming"
   ],
   "author": "oddjobsman <oddjobsman@oddjobsman.com>",
   "license": "MIT",
